@@ -1,6 +1,6 @@
-Gestion de trésorerie
+# Gestion de trésorerie
 
-Créer plusieurs classes : 
+## Créer plusieurs classes avec les classes (-) et les méthodes (=>) 
 
 0. Bar
 	- nom
