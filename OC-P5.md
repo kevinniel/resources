@@ -1,8 +1,10 @@
 1. Identifier les données qui te seront nécessaires et les EndPoints qui correspondent à tes besoins.
 2. Réaliser un schéma de BDD (via workbench par exemple). Exporter le script de création de BDD depuis Workbench et vérifier qu'il est fonctionnel. A défaut, effectuer les corrections.
-3. Faire un script qui récupère X produits, choisis parmi Y catégories prédéfinies (X et Y peuvent bien évidemment être mis dans un fichier de configuration en tant que constantes !)
-  - Penser à bien vérifier l'intégrité des données concernant les produits que tu vas enregistrer et surtout vérifier l'existence de chacun des champs qui est nécessaire pour ta BDD !
-4. Enregistrer les produits récupérés en BDD.
+3. Créer un fichier de config et y intégrer une constante qui prendra pour valeur chacune des catégories à récupérer depuis OFF (compter 5 catégories dans cette constante). Intégrer également une constante ("X") pour savoir combien de produits on doit récupérer au maximum pour chaque catégorie.
+  - créer un script qui va récupérer la liste des catégories à récupérer (dans le fichier de config)
+  - enregistrer en base de données l'ensemble de ces catégories (pour générer des identifiants uniques)
+  - Pour chaque catégorie, effectuer une requête à l'API pour récupérer les "X" produits de ladite catégorie.
+4. Pour chacun des produits récupérés : vérifier l'intégrité des données (complètes, cohérentes, etc...), puis les enregistrer dans ta base de données en y intégrant l'identifiant de la catégorie correspondante (identifiant provenant de TA base de données)
 5. Commencer le programme python "final" : 
 
 Ton menu doit contenir les choix suivants : 
