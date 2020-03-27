@@ -36,5 +36,6 @@ Pour réaliser le document, voici la trame suggérée :
 3. Cycle de vie d'une commande
 Réaliser un diagramme d'activité qui représente l'ensemble du cycle de vie d'une commande, de sa création à sa finalisation.
 
-Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas.
-Tips : Pour les scénarios, bien utiliser la partie finale de "question ouverte" pour démontrer les fonctionnalités non obligatoires mais que vous pouvez imaginer. Cela permettra de démontrer votre questionnement sur le projet et que vous êtes capable de voir plus loin que ce que l'on vous demande, sans pour autant nécessité de tout représenter dans vos diagrammes UML !
+*Attention* : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas.
+
+*Tips* : Pour les scénarios, bien utiliser la partie finale de "question ouverte" pour démontrer les fonctionnalités non obligatoires mais que vous pouvez imaginer. Cela permettra de démontrer votre questionnement sur le projet et que vous êtes capable de voir plus loin que ce que l'on vous demande, sans pour autant nécessité de tout représenter dans vos diagrammes UML !
