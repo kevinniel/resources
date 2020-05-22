@@ -2,7 +2,7 @@
 
 L'idée de ce projet est de réalisé un "entonoir" vous permettant de présenter de manière détaillée une conception d'application.
 
-## Spécifications fonctionnelles
+## Documentation fonctionnelle
 
 Pour réaliser le document, voici la trame suggérée : 
 
