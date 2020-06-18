@@ -9,15 +9,15 @@
 
 Ton menu doit contenir les choix suivants : 
 
-- choisir une catégorie
+- (etape 3) choisir une catégorie
   - Une fois la catégorie affichée, afficher la liste des produits appartenants à la catégorie.
   - Permettre le choix d'un produit pour afficher de potentiels substituts en fonction du grade nutritionnel
   - Afficher une liste de "Z" potentiels substituts, Z étant un nombre modifiable dans les constantes.
   - Une fois que l'utilisateur à choisi un substitut, lui proposer le l'enregistrer
   - Une fois la décision d'enregistrement effectuée, renvoyer sur le menu principal
-- afficher les produits substitués
-- réinitialiser la BDD
+- (etape 4) afficher les produits substitués
+- (etape 2) réinitialiser la BDD
   - supprimer l'ensemble de l'existant
   - re-créer ta BDD a partir de ton script SQL (qui va être exécuté par Python)
   - re-déclencher l'appel a l'API pour récupérer les informations
-- quitter le programme.
+- (etape 1) quitter le programme.
