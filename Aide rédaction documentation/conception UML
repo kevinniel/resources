@@ -1,0 +1,39 @@
+# Aide rédaction documentation / conception UML
+
+## Documentation fonctionnelle
+
+1. Identification des acteurs
+-> diagramme de contexte.
+	- acteurs principaux (interagissent directement avec l'outil) (ex: gérant pizzeria)
+	- acteurs secondaires (sont utilisés par le système, mais pas par l'utilisateur) (ex: API)
+2. Identifier les fonctionnalités
+-> excel => faire le listing de TOUTES les fonctionnalités
+	- identifier dans l'énoncé les fonctionnalités explicites & implicites (sans distinction particulière)
+3. Regrouper les fonctionnalités par "centre d'intérêt"
+-> chaque regroupement de fonctionnalité, va pouvoir être représenté par un package dans un diagramme de packages.
+4. Pour chaque package, réaliser un diagramme de cas d'utilisation
+5. Cycle de vie de la commande
+-> diagramme d'activité : de la création de la commande, jusqu'à sa finalisation
+
+
+## Documentation technique
+
+1. Schématiser la base de données
+-> merise MCD/MPD
+
+2. Modélisation des objets
+-> diagramme de classe
+Attention : L'intérêt ici est de mettre en exergue les similitudes entre le diagramme de classe et le MCD/MPD. L'idée est, pour le diagramme de classe, de réaliser la partie "Model" d'un schéma MVC.
+
+3.Diagramme de composants
+-> repartir du listing des fonctionnalités & du diagramme de package pour identifier les composants
+	- 1 package = 1 composant "principal"
+	- identifier de potentiels "sous-packages" en triant à nouveau, de manière plus affinée, les fonctionnalités de chacun des packages. Ces "sous-packages" pourront être représentés en tant que "composants secondaires" (c'est-à-dire des composants à lintérieur des principaux)
+-> déterminer les relations entre composants
+	- prendre chaque composant identifié, le comparer avec tous les autres, et déterminer si oui ou non, il peut y avoir un échange d'informations entre ces composants.
+	- pour chaque relation, déterminer quel composant Donne l'information, et quel composant Reçois l'information.
+
+4. Diagramme de déploiement
+-> représentation de l'architecture physique
+-> représentation des composants applicatifs génériques
+-> représentation des protocoles d'échange d'information entre chacun (HTTP(S)/TCPIP etc...)
