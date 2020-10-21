@@ -1,6 +1,6 @@
 #DA Python - P4
 
-L'idée de ce projet est de réalisé un "entonoir" vous permettant de présenter de manière détaillée une conception d'application.
+L'idée de ce projet est de réaliser un "entonoir" vous permettant de présenter de manière détaillée une conception d'application.
 
 ## Documentation fonctionnelle
 
