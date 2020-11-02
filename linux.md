@@ -15,6 +15,11 @@
   - **rm \<fichier\>** : permet de supprimer un fichier
   - **rm -r \<dossier\>** : permet de supprimer un dossier et tout son contenu (le "-r" permet de signifier la __reccursivité__)
   - **rm -rf \<dossier\>** : force la suppression du dossier grace au "-f" ( pour "forcer")
+- **touch \<nom\>** : Permet de créer un fichier avec le nom "__nom__"
+- **cat \<fichier\>** : Permet d'afficher dans la console le contenu du fichier sans l'ouvrir
+- **mv** : Permet de déplacer des éléments
+  - **mv \<source\> \<destination\>** : Permet de déplacer l'élément __source__ a l'emplacement de __destination__
+  - **astuce** : __mv__ est également utilisé pour renommer des fichiers. Par exemple, si un fichier s'appelle "toto" et que l'on souhaite le renommer "tata", il suffira d'utiliser la commande __mv__ de la sorte : **mv toto tata**
 
 ## Quelques fichiers
 
