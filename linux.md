@@ -20,6 +20,9 @@
 - **mv** : Permet de déplacer des éléments
   - **mv \<source\> \<destination\>** : Permet de déplacer l'élément __source__ a l'emplacement de __destination__
   - **astuce** : __mv__ est également utilisé pour renommer des fichiers. Par exemple, si un fichier s'appelle "toto" et que l'on souhaite le renommer "tata", il suffira d'utiliser la commande __mv__ de la sorte : **mv toto tata**
+- **cp** : Permet de copier des éléments
+  - **cp \<fichier_source\> \<fichier_destination\>** : Copie le fichier source en fichier de destination
+  - **cp -r \<dossier_source\> \<dossier_destination\>** : Copie le dosser source en dossier de destination (le "-r" permet de signifier la __reccursivité__)
 
 ## Quelques fichiers
 
