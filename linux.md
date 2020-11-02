@@ -1,5 +1,12 @@
 # Linux
 
+## Astuces (CLI)
+
+- **tabulation** est une touche magique. Elle permet : 
+  - soit d'utiliser l'autocomplétion dans la console / le terminal
+  - soit d'afficher l'ensemble des éléments dans le dossier cible en appuyant 2 fois dessus
+- **fleche du haut / bas** : Permet de naviguer parmis les anciennes commandes effectuées
+
 ## Ligne de commande (CLI)
 
 - **ls** : Lister l'ensemble des fichiers & dossiers présents dans le répertoire courant, sans les dossiers et fichiers cachés
