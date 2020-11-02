@@ -34,3 +34,24 @@
 ## Quelques fichiers
 
 - **~/.bashrc** : fichier permettant de gérer les "alias" et donc les raccourcis"
+
+### La prochaine fois : 
+- users
+- groups
+- chown
+- chmod
+- architecture
+- grep
+- whereis
+- which
+- histoire de linux
+- arrêt et redémarrage
+- processus
+- gestion de packages (apt)
+- path
+- wildcard * 
+- tar
+- cpio
+- dd
+
+- shell ?
