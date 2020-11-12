@@ -48,6 +48,10 @@
 Explorez et déterminez l'architecture des dossiers & fichiers de linux (Debian 10).
 Vous n'avez pas le droit à internet :D
 
+**A faire pour demain (13/11/2020)** 
+exemple : https://www.cyberciti.biz/media/new/faq/2012/11/Tree-Display-Structure-Directory-Hierarchy.png
+faire au format MarkDown un treeview des dossiers et fichiers importants, en expliquant à chaque fois son rôle / but
+
 
 ### La prochaine fois : 
 - users
