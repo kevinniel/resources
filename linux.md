@@ -7,6 +7,7 @@
   - soit d'afficher l'ensemble des éléments dans le dossier cible en appuyant 2 fois dessus
 - **fleche du haut / bas** : Permet de naviguer parmis les anciennes commandes effectuées
 - **\<command\> && \<command\>** : Permet d'enchaîner plusieurs commandes en une seule ligne.
+- **le wildcard \( * \)** : Est un symbole qui permet de tout sélectionné :D
 
 ## Ligne de commande (CLI)
 
@@ -42,6 +43,26 @@
   - **apt-get purge \<paquet1\> \<paquet2\> ...** : supprimer les paquets __ET__ les fichiers de configuration
   - **apt-get autoclean** : permet de supprimer les paquets "vieux" et "non utilisés". Conserve les versions à jour des paquets.
 - **su \<username\>** : permet de se connecter en tant qu'un autre utilisateur
+- **shutdown -h now** : permet d'arrêter la machine
+- **shutdown -r now** : permet de redemarrer la machine
+- **reboot** : permet de redemarrer la machine
+- **reboot -f** : permet de forcer le redemarrage la machine
+
+### Utilisateurs & Groupes
+
+#### Infos utiles
+- les utilisateurs sont stockés dans le fichier __/etc/passwd__
+- les groupes sont stockés dans le fichier __/etc/group__
+
+#### Commandes
+- **useradd \<username\>** : commande permettant d'ajouter un utilisateur
+- **useradd -G \<groups\> \<username\>**: crée un utilisateur __username__ en lui affectant automatiquement les groupes listés dans __groups__ (si plusieurs, groupes, les séparer par des virgules)
+- **passwd \<username\>** : permet de définir le nouveau mot de passe à l'uilisateur __username__. Par défaut, si vous saisissez unqieuemnt __passwd__, alors vous pourrez modifier le MDP de l'utilisateur avec lequel vous êtes connecté.
+- **userdel \<username\>** : permet de supprimer l'utilisateur __usernmae__
+- **groupadd \<nom_du_groupe\>** : permet de créer un groupe __nom_du_groupe__
+- **groupdel \<nom_du_groupe\>** : permet de supprimer le groupe __nom_du_groupe__
+- **gpasswd -a \<utilisateur\> \<groupe\>** : permet d'ajouter l'utilisateur existant __utilisateur__ au groupe existant __groupe__
+- **gpasswd -d \<utilisateur\> \<groupe\>** : permet de supprimer l'utilisateur existant __utilisateur__ du groupe existant __groupe__
 
 ## Quelques fichiers utiles
 - **~/.bashrc** : fichier permettant de gérer les "alias" et donc les raccourcis"
@@ -57,16 +78,12 @@ faire au format MarkDown un treeview des dossiers et fichiers importants, en exp
 
 
 ### reste à voir : 
-- users
-- groups
 - chown
 - chmod
 - which
 - histoire de linux
-- arrêt et redémarrage
 - processus
 - path
-- wildcard * 
 - tar
 - cpio
 - dd
