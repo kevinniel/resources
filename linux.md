@@ -34,10 +34,13 @@
 - **grep \<regex || string\> \<fichier\>** : Permet d'effectuer une recherche dans un fichier, a partir d'une regex, ou d'une string
 - **man \<command\>** : Permet de vous afficher la documentation de la commande renseignée
 - **whereis \<string\>** : Permet de rechercher tous les fichiers nommés __\<string\>__ parmis les fichiers exécutables de l'OS.
-- **apt-get \<command\>** : Gestionnaire de packages de l'OS
-  - **apt-get update** : met à jour la liste des packages disponibles
-  - **apt-get upgrade** : met à jour les packages déjà installés sur votre machine
-  - **apt-get install \<paquet1\> \<paquet2\> ...** : installer un ou plusieurs package
+- **apt-get \<command\>** : Gestionnaire de paquets de l'OS
+  - **apt-get update** : met à jour la liste des paquets disponibles
+  - **apt-get upgrade** : met à jour les paquets déjà installés sur votre machine
+  - **apt-get install \<paquet1\> \<paquet2\> ...** : installer un ou plusieurs paquets
+  - **apt-get remove \<paquet1\> \<paquet2\> ...** : supprimer les paquets __SANS__ les fichiers de configuration
+  - **apt-get purge \<paquet1\> \<paquet2\> ...** : supprimer les paquets __ET__ les fichiers de configuration
+  - **apt-get autoclean** : permet de supprimer les paquets "vieux" et "non utilisés". Conserve les versions à jour des paquets.
 - **su \<username\>** : permet de se connecter en tant qu'un autre utilisateur
 
 ## Quelques fichiers utiles
@@ -53,7 +56,7 @@ exemple : https://www.cyberciti.biz/media/new/faq/2012/11/Tree-Display-Structure
 faire au format MarkDown un treeview des dossiers et fichiers importants, en expliquant à chaque fois son rôle / but
 
 
-### La prochaine fois : 
+### reste à voir : 
 - users
 - groups
 - chown
