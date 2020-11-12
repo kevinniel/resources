@@ -38,7 +38,7 @@
   - **apt-get update** : met à jour la liste des packages disponibles
   - **apt-get upgrade** : met à jour les packages déjà installés sur votre machine
   - **apt-get install \<paquet1\> \<paquet2\> ...** : installer un ou plusieurs package
-- **su <\username\>** : permet de se connecter en tant qu'un autre utilisateur
+- **su \<username\>** : permet de se connecter en tant qu'un autre utilisateur
 
 ## Quelques fichiers
 
