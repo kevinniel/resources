@@ -40,16 +40,20 @@
   - **apt-get install \<paquet1\> \<paquet2\> ...** : installer un ou plusieurs package
 - **su \<username\>** : permet de se connecter en tant qu'un autre utilisateur
 
-## Quelques fichiers
-
+## Quelques fichiers utiles
 - **~/.bashrc** : fichier permettant de gérer les "alias" et donc les raccourcis"
+
+## Architecture des fichiers
+
+Explorez et déterminez l'architecture des dossiers & fichiers de linux (Debian 10).
+Vous n'avez pas le droit à internet :D
+
 
 ### La prochaine fois : 
 - users
 - groups
 - chown
 - chmod
-- architecture
 - which
 - histoire de linux
 - arrêt et redémarrage
