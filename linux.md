@@ -33,6 +33,8 @@
   - **cp -r \<dossier_source\> \<dossier_destination\>** : Copie le dosser source en dossier de destination (le "-r" permet de signifier la __reccursivité__)
 - **grep \<regex || string\> \<fichier\>** : Permet d'effectuer une recherche dans un fichier, a partir d'une regex, ou d'une string
 - **man \<command\>** : Permet de vous afficher la documentation de la commande renseignée
+- **whereis \<string\>** : Permet de rechercher tous les fichiers nommés __\<string\>__ parmis les fichiers exécutables de l'OS.
+
 
 ## Quelques fichiers
 
@@ -44,7 +46,6 @@
 - chown
 - chmod
 - architecture
-- whereis
 - which
 - histoire de linux
 - arrêt et redémarrage
