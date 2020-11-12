@@ -31,7 +31,7 @@
 - **cp** : Permet de copier des éléments
   - **cp \<fichier_source\> \<fichier_destination\>** : Copie le fichier source en fichier de destination
   - **cp -r \<dossier_source\> \<dossier_destination\>** : Copie le dosser source en dossier de destination (le "-r" permet de signifier la __reccursivité__)
-- **grep \≤regex || string\> \<fichier\>** : Permet d'effectuer une recherche dans un fichier, a partir d'une regex, ou d'une string
+- **grep \<regex || string\> \<fichier\>** : Permet d'effectuer une recherche dans un fichier, a partir d'une regex, ou d'une string
 
 
 ## Quelques fichiers
