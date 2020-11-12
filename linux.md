@@ -34,6 +34,10 @@
 - **grep \<regex || string\> \<fichier\>** : Permet d'effectuer une recherche dans un fichier, a partir d'une regex, ou d'une string
 - **man \<command\>** : Permet de vous afficher la documentation de la commande renseignée
 - **whereis \<string\>** : Permet de rechercher tous les fichiers nommés __\<string\>__ parmis les fichiers exécutables de l'OS.
+- **apt-get \<command\>** : Gestionnaire de packages de l'OS
+  - **apt-get update** : met à jour la liste des packages disponibles
+  - **apt-get upgrade** : met à jour les packages déjà installés sur votre machine
+  - **apt-get install \<paquet1\> \<paquet2\> ...** : installer un ou plusieurs package
 
 
 ## Quelques fichiers
@@ -50,7 +54,6 @@
 - histoire de linux
 - arrêt et redémarrage
 - processus
-- gestion de packages (apt)
 - path
 - wildcard * 
 - tar
