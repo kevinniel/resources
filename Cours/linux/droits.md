@@ -32,6 +32,31 @@ Chacun des groupements de caractères ont une signification précise. Ils sont c
 2. **-** ou **w** : si le caractère est un __w__, alors le droit d'écriture est attribué. Si c'est un __-__, alors il ne l'est pas.
 3. **-** ou **x** : si le caractère est un __x__, alors le droit d'exécution' est attribué. Si c'est un __-__, alors il ne l'est pas.
 
+### Les correspondances de valeurs pour les droits
+
+| Position binaire | Valeurs octale | Textuel | Droits |
+|------------------|----------------|---------|--------|
+|       000        |       0        |  \-\-\- | ø |
+|       001        |       1        |  \-\-x  | Exécuter |
+|       010        |       2        |  \-w\-  | Ecrire |
+|       011        |       3        |  \-wx   | Ecrire, Exécuter |
+|       100        |       4        |  r\-\-  | Lire |
+|       101        |       5        |  r\-x   | Lire, Exécuter |
+|       110        |       6        |  rw\-   | Lire, Ecrire |
+|       111        |       7        |  rwx    | Lire, Ecrire, Exécuter |
+
+Il existe plusieurs moyens de représenter des droits. Nous avons vu ci-dessus la forme "textuelle". Il existe également une forme dite "Octale" (nombres de 0 à 7) ainsi qu'une forme binaire (de 000 à 111). Voici un tableau de correspondance : 
+
+
+
+
+
+## Les commandes
+
+
+
+
+
 
 
 
