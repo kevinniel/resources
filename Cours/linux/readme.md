@@ -11,8 +11,6 @@
 4. [Astuces](https://github.com/kevinniel/resources/blob/master/Cours/linux/astuces.md)
 
 ### reste à voir : 
-- chown
-- chmod
 - which
 - processus
 - path
