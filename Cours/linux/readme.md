@@ -1,5 +1,14 @@
 # Linux
 
+## Sommaire
+
+1. [L'histoire de Linux]()
+2. [Architecture]()
+3. Lignes de commandes
+  1. [Commandes génériques]()
+  2. [Utilisateurs et groupes]()
+4. [Astuces]()
+
 ### reste à voir : 
 - chown
 - chmod
