@@ -1,13 +1,13 @@
 # L'histoire de Linux
 
 - **1965** : [MULTICS](#MULTICS)
-- **1969** : [AT&T Bell laboratories](#AT&T Bell laboratories) - Ken Thompson et Dennis Ritchie créent la première version de [UNIX](#UNIX)
+- **1969** : [AT&T](#AT&T) - Ken Thompson et Dennis Ritchie créent la première version de [UNIX](#UNIX)
 - **1970** : [UNIX](#UNIX)
 - **1974** : La 4ème version de [UNIX](#UNIX) est donnée à Berkeley une université californienne. 2 versions de [UNIX](#UNIX) existent alors, l'AT&T et la [BSD](#BSD).
-- **1979** : [AT&T](#AT&T Bell laboratories) vend les premières licences [UNIX](#UNIX)
+- **1979** : [AT&T](#AT&T) vend les premières licences [UNIX](#UNIX)
 - **1983** : Projet [GNU](#GNU)
 - **1984** : Le MIT crée la norme X Windows, un système de multifenêtrage graphique
-- **1987** : [AT&T](#AT&T Bell laboratories) et [BSD](#BSD) s'allient pour normaliser [UNIX](#UNIX)
+- **1987** : [AT&T](#AT&T) et [BSD](#BSD) s'allient pour normaliser [UNIX](#UNIX)
 - **1991** : Création de Linux par le finlandais Linus Torvalds à la suite d'un travail sur Minix (OS à finalité pédagogique)
 - **1992** : Linux devient Open Source ( adoption de la [licence GPL](#GPL) )
 - **1993** : Création de la distribution Slackware - ancienne version toujours maintenue
@@ -15,7 +15,7 @@
 - **1996** : Linux à sa mascotte ( Tux, un manchot, le logo et emblème du projet)
 - **1997** : Création du projet [GNOME](#GNOME)
 - **1998** : [KDE](#KDE) 1.0 est disponible
-- **1999** : [Red Hat](#Red Hat) entre en bourse ( La société est la première spécialisée dans Linux à entrer en bourse.)
+- **1999** : [Red Hat](#RedHat) entre en bourse ( La société est la première spécialisée dans Linux à entrer en bourse.)
 - **2000** : Steve Jobs propose a Linus Torvalds de travailler sur MacOS
 - **2001** : Windows considère Linux comme un réel problème commercial
 - **2002** : Microsoft engage 421 millions de $ pour contrer la propagation de Linux
@@ -34,7 +34,7 @@
 
 ## Glossaire
 
-### AT&T Bell laboratories
+### AT&T
 AT&T est une entreprise américaine de télécommunication, spécialisé dans la téléphonie, internet...
 
 ### BSD
@@ -59,7 +59,7 @@ Ken Thompson et Dennis Ritchie, issus des équipes de MULTICS, en ont fait une v
 ### UNIX
 C'est un système d'exploitation sur lequel se basent de nombreux autres OS tels que MacOS, Debian, Ubuntu, etc... (la totalité des OS disponible sous appellation "Linux" / "UNIX"). On dit que l'ensemble des OS sont basés sur un "noyau UNIX".
 
-### Red Hat
+### RedHat
 Red Hat est une société qui est dédiée aux logiciels Open Source. Elle est le premier distributeur de systèmes d'exploitation GNU/Linux
 
 
