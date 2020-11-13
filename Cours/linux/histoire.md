@@ -1,6 +1,6 @@
 # L'histoire de Linux
 
-- **1965** : MULTICS
+- **1965** : [MULTICS](#MULTICS)
 - **1969** : AT&T, Bell laboratories - Ken Thompson et Dennis Ritchie créent la première version de Unix
 - **1970** : UNIX
 - **1974** : La 4ème version de Unix est donnée à **Berkeley** une université californienne. 2 versions de Unix existent, l'AT&T et la BSD (Berkeley SOftware DIstribution)
@@ -32,3 +32,8 @@
 - **2013** : Le téléphone Ubuntu est annoncé.
 - **2014** : Microsoft s'entendent bien Linux
 - **2015** : Microsoft a sa propre version de Linux.
+
+## Glossaire
+
+### MULTICS
+MULTICS est le premier système d'exploitation influent à temps partagé basé sur le concept d'une mémoire à un seul niveau 
