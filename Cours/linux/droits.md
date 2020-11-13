@@ -47,13 +47,39 @@ Chacun des groupements de caractères ont une signification précise. Ils sont c
 
 Il existe plusieurs moyens de représenter des droits. Nous avons vu ci-dessus la forme "textuelle". Il existe également une forme dite "Octale" (nombres de 0 à 7) ainsi qu'une forme binaire (de 000 à 111). Voici un tableau de correspondance : 
 
-
-
-
-
 ## Les commandes
 
+### CHOWN
+CHOWN (Change Owner) permet de changer l'appartenance d'un élément. Vous allez pouvoir changer le propriétaire d'un élément, aussi bien que le groupe auquel il est affecté. Pour l'utiliser : 
 
+```
+chown \[utilisateur\]\[groupe\] targets
+```
+
+quelques exemples : 
+```
+chown toto a // va définir le propriétaire du fichier "a" comme étant "toto"
+chown -R toto a // va définir le propriétaire du dossier "a" comme étant "toto"
+chown -R toto:tata a // va définir le propriétaire du dossier "a" comme étant toto, et le groupe associé au dossier comme étant "tata"
+chown toto a b c d // va définir toto comme étant le propriétaire des fichiers "a", "b", "c" et "d".
+```
+
+### CHMOD
+Le CHMOD permet de modifier les droits à un élément. Pour pouvoir utiliser cette commande sur un élément, il faut soit être en utilisateur "root", soit être son propriétaire.
+
+Il existe plusieurs syntaxes pour utiliser cette commande. Parmis lesquelles :
+
+#### la syntaxe textuelle
+
+La commande s'effectuera de la sorte : __chmod u+rwx,g+rwx,o+rwd fichiers__ .
+On distingue bien nos trois groupements de droits, séparés par des virgules. Ici dans l'exemple, tous les droits sont attribués à tout le monde : 
+
+- **u+rwx** : __u__ pour "user" (donc tous les utilisateurs). __+__ pour affecter les droits. Le triptyque représentatif des droits à attribuer.
+- **g+rwx** : __g__ pour "group" (donc le groupe lié). __+__ pour affecter les droits. Le triptyque représentatif des droits à attribuer.
+- **o+rwx** : __o__ pour "owner" (donc le propriétaire). __+__ pour affecter les droits. Le triptyque représentatif des droits à attribuer.
+- **fichiers** : le ou les fichiers concernés. S'il s'agit d'un dossier, penser à inclure la récursivité avec l'option __-R__ comme pour CHOWN.
+
+Lorsque vous ne souhaitez pas attribuer l'un des droits ci-dessus au groupe, au propriétaire ou aux utilisateurs, alors vous devez remplacer le caractère représentant votre droit par un __-__.
 
 
 
