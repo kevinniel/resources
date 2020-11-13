@@ -34,18 +34,20 @@ Chacun des groupements de caractères ont une signification précise. Ils sont c
 
 ### Les correspondances de valeurs pour les droits
 
-| Position binaire | Valeurs octale | Textuel | Droits |
-|------------------|----------------|---------|--------|
-|       000        |       0        |  \-\-\- | ø |
-|       001        |       1        |  \-\-x  | Exécuter |
-|       010        |       2        |  \-w\-  | Ecrire |
-|       011        |       3        |  \-wx   | Ecrire, Exécuter |
-|       100        |       4        |  r\-\-  | Lire |
-|       101        |       5        |  r\-x   | Lire, Exécuter |
-|       110        |       6        |  rw\-   | Lire, Ecrire |
-|       111        |       7        |  rwx    | Lire, Ecrire, Exécuter |
+Il existe plusieurs moyens de représenter des droits. Nous avons vu ci-dessus la forme "textuelle". Il existe également une forme dite "Octale" (nombres de 0 à 7) ainsi qu'une forme binaire (de 000 à 111). Nous ne détaillerons pas ici la forme binaire.
 
-Il existe plusieurs moyens de représenter des droits. Nous avons vu ci-dessus la forme "textuelle". Il existe également une forme dite "Octale" (nombres de 0 à 7) ainsi qu'une forme binaire (de 000 à 111). Voici un tableau de correspondance : 
+Voici un tableau de correspondance : 
+
+| Valeurs octale | Textuel | Droits |
+|----------------|---------|--------|
+|       0        |  \-\-\- | ø |
+|       1        |  \-\-x  | Exécuter |
+|       2        |  \-w\-  | Ecrire |
+|       3        |  \-wx   | Ecrire, Exécuter |
+|       4        |  r\-\-  | Lire |
+|       5        |  r\-x   | Lire, Exécuter |
+|       6        |  rw\-   | Lire, Ecrire |
+|       7        |  rwx    | Lire, Ecrire, Exécuter |
 
 ## Les commandes
 
@@ -80,6 +82,27 @@ On distingue bien nos trois groupements de droits, séparés par des virgules. I
 - **fichiers** : le ou les fichiers concernés. S'il s'agit d'un dossier, penser à inclure la récursivité avec l'option __-R__ comme pour CHOWN.
 
 Lorsque vous ne souhaitez pas attribuer l'un des droits ci-dessus au groupe, au propriétaire ou aux utilisateurs, alors vous devez remplacer le caractère représentant votre droit par un __-__.
+
+#### la syntaxe octale
+
+Vous pouvez vous réferrer au tableau ci-dessus de correspondance de valeur pour les droits.
+
+Il est également possible - si vous ne retenez pas le tableau par coeur, de calculer la valeur octale en fonction de vos besoins, grâce à la valorisation suivante : 
+- **r** : 4
+- **w** : 2
+- **x** : 1
+De telle sorte à ce que "r-x" vaudra 4+1 donc 5.
+
+Pour utiliser la commande CHMOD en valeur octale, il faudra utiliser la syntaxe : __chmod ABC fichier__ où : 
+- **A** : représente les droits de tous les utilisateurs (et peut donc être remplacé par un nombre de 0 à 7)
+- **B** : représente les droits du groupe (et peut donc être remplacé par un nombre de 0 à 7)
+- **C** : représente les droits du propriétaire (et peut donc être remplacé par un nombre de 0 à 7)
+
+
+
+
+
+
 
 
 
