@@ -23,5 +23,11 @@
 
 # A faire pour la prochaine fois :
 
-Étudier le CRON de la même manière que nous l'avons fait.
+Commencer à étudier le powershell.
+
+Faire des essais
+
+Expliquer les choses sur un fichier .md
+
+explications : Apprendre à s'en servir
 
