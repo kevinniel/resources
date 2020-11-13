@@ -38,7 +38,8 @@
 |
 ├── home
 |   └── __user__ // dossier utilisateur qui contient ses fichiers
-|       └── ... // dossiers "personnels" de l'utilisateur
+|   └── .bashrc // fichier permettant de gérer les "alias" et donc les raccourcis" (entre autre)
+|       └── ... // dossiers et fichiers "personnels" de l'utilisateur
 |
 ├── mnt // (mount) point de montage pour les montages temporaires
 |
