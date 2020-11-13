@@ -7,16 +7,17 @@
 3. Lignes de commandes
     1. [Commandes génériques](https://github.com/kevinniel/resources/blob/master/Cours/linux/commandes_generiques.md)
     2. [Utilisateurs et groupes](https://github.com/kevinniel/resources/blob/master/Cours/linux/utilisateurs_et_groupes.md)
+    3. [Les droits](https://github.com/kevinniel/resources/blob/master/Cours/linux/droits.md)
 4. [Astuces](https://github.com/kevinniel/resources/blob/master/Cours/linux/astuces.md)
 
 ### reste à voir : 
 - chown
 - chmod
 - which
-- histoire de linux
 - processus
 - path
 - tar
+- cron
 - cpio
 - dd
 
