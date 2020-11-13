@@ -5,8 +5,8 @@
 1. [L'histoire de Linux](https://github.com/kevinniel/resources/blob/master/Cours/linux/histoire.md)
 2. [Architecture](https://github.com/kevinniel/resources/blob/master/Cours/linux/architecture.md)
 3. Lignes de commandes
-  1. [Commandes génériques](https://github.com/kevinniel/resources/blob/master/Cours/linux/commandes_generiques.md)
-  2. [Utilisateurs et groupes](https://github.com/kevinniel/resources/blob/master/Cours/linux/utilisateurs_et_groupes.md)
+  3.1. [Commandes génériques](https://github.com/kevinniel/resources/blob/master/Cours/linux/commandes_generiques.md)
+  3.2. [Utilisateurs et groupes](https://github.com/kevinniel/resources/blob/master/Cours/linux/utilisateurs_et_groupes.md)
 4. [Astuces](https://github.com/kevinniel/resources/blob/master/Cours/linux/astuces.md)
 
 ### reste à voir : 
