@@ -77,6 +77,7 @@
 - path
 - tar
 - cpio
+- cron
 - dd
 
 - shell ?
