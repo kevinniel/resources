@@ -16,6 +16,7 @@
 - processus
 - path
 - tar
+- service reload / restart /start / stop ...
 - cpio
 - dd
 
