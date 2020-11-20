@@ -20,3 +20,12 @@ C'est un outil qui permet de déclencer des actions / des scripts de manière pl
 # |  |  |  |  |
 # *  *  *  *  *  user command to be executed
 ```
+
+## Les valeurs possibles
+Pour chaque ligne de tâche dans le CRON, vous devez renseigner 5 valeurs. Chacune doit être séparée par un espace des autres précisément.
+
+Pour chaque unité, plusieurs notations peuvent être utilisées : 
+- **1** : prendra en compte l'unité "1"
+- **1-5** : prendra en compte toutes les unités de 1 à 5
+- **\*/6** : prendra en compte toutes les unités en comptant par intervalle de "6" (ex : 0, 6, 12, 18, 24, etc...)
+- **2,4,8** : prendra en compte les unités "2", "4", "8" précisément
