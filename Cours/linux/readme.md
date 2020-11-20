@@ -33,6 +33,8 @@ Vous pourrez créer un dossier pour trier les éventuelles ressources autres que
 
 Vous pourrez me demander de relire / répondre à vos questions durant les cours, par MP sur Teams pour me permettre de garder une tracabilité des échanges.
 
+Vous devrez rajouter à la fin de votre reamde, votre avis concernant ce type de projets à réaliser, et la manière de l'effectuer. L'avis ne sera pas pris en compte dans la notation.
+
 ### Critères d'évaluation
 - Contenu : précision et exhaustivité
 - Exemples : vous devez "montrer" des exemples de réalisation
