@@ -37,7 +37,7 @@ Pour chaque unité, plusieurs notations peuvent être utilisées :
 
 ## Quelques exemples
 
-—————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————
 
 __Execution d'une tâche tous les jours, à 22h00__
 
@@ -45,7 +45,7 @@ __Execution d'une tâche tous les jours, à 22h00__
 00 22 * * * commande
 ```
 
-—————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————
 
 __Execution d'une tâche le vendredi, à 8h00, 10h00, 12h00 et 16h00, chaque 26 du mois__
 
@@ -53,7 +53,7 @@ __Execution d'une tâche le vendredi, à 8h00, 10h00, 12h00 et 16h00, chaque 26 
 00 08,10,12,16 26 * 5 commande
 ```
 
-—————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————
 
 __Execution d'une tâche par l'utilisateur "John" tous les jours entre 1h et 2h, toutes les 2 minutes, en insérant dans le fichier de log "login_file.txt" les retours de la commande__
 
