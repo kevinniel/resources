@@ -7,6 +7,7 @@ C'est un outil qui permet de déclencer des actions / des scripts de manière pl
 ## Commandes utiles
 - **crontab -l** : Permet d'afficher le contenu du ficher crontab
 - **crontab -e** : Permet d'éditer le contenu du ficher crontab
+- **crontab -r** : Permet supprimer le contenu du ficher crontab
 
 ## Concept
 
