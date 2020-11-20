@@ -36,3 +36,4 @@
 - **shutdown -r now** : permet de redemarrer la machine
 - **reboot** : permet de redemarrer la machine
 - **reboot -f** : permet de forcer le redemarrage la machine
+- **which \<command\>** : permet de localiser les fichiers liés aux commandes
