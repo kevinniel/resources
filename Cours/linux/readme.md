@@ -16,7 +16,6 @@
 - processus
 - path
 - tar
-- cron
 - cpio
 - dd
 
