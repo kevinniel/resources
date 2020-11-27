@@ -1,37 +1,30 @@
-# Evaluation
+# Projets Shell
 
-## Projet
+## 1 - Scripts de gestion des comptes utilisateurs
 
-### Énoncé
-Étudier et réaliser un "cours" avec vos propres explications, termes, et compréhension du SHELL ou POWERSHELL.
-Vous devrez rédiger l'ensemble des contenus au format MARKDOWN, sur un repository GITHUB.
-Vous devrez mettre en place un fichier "readme.md" qui introduira votre sujet ET présentera votre sommaire.
-Chaque partie du sommaire devra faire l'objet d'un fichier spécifique, toujours au format MARKDOWN.
-Chaque fichier recensé devra entraîner la création d'un lien dans le sommaire.
-Vous pourrez créer un dossier pour trier les éventuelles ressources autres que textuelles : toutes les images par exemple devront y être rangées.
+Faire un script de gestion des utilisateurs, qui doit permettre : 
+	- de créer des utilisateurs
+	- de modifier des utilisateurs
+	- de supprimer des utilisateurs
+	- de voir tous les utilisateurs
+	- de faire une recherche sur l'existence d'un utilisateur en particulier
 
-Vous pourrez me demander de relire / répondre à vos questions durant les cours, par MP sur Teams pour me permettre de garder une tracabilité des échanges.
+—————————————————————————————————————————————————————————————————————————————————————
 
-Vous devrez rajouter à la fin de votre reamde, votre avis concernant ce type de projets à réaliser, et la manière de l'effectuer. L'avis ne sera pas pris en compte dans la notation.
+## 2 - Exercice d'installation automatique d'un serveur web Apache
 
-### Critères d'évaluation
-- Contenu : précision et exhaustivité
-- Exemples : vous devez "montrer" des exemples de réalisation
-- Organisation de votre repository
-- Qualité rédactionnelle (orthographe, grammaire, vocabulaire)
-- Le respect et l'optimisation du format markdown
-- Cités vos sources lorsque nécessaire ("inspiration", images, etc...)
-- Implication : Le nombre de demande de relecture du travail / d'aide, ou de question(s) seront également pris en compte en fonction du travail rendu.
+Créer un script qui va automatiquement installer et paramétrer un serveur web Apache. Le script devra pouvoir : 
 
-### Modalités de rendu
-Date limite : 15/12/2020 à 18h
-Envoie d'un mail __professionnel__ à l'adresse : k.niel.pro@gmail.com
-Le mail contiendra bien évidemment le lien de votre repository GITHUB.
+	- installer Apache
+	- permettre d'activer ou désactiver des modules apache
+	- permettre de lister les modules apaches actifs
+	- permettre de lister les modules apaches non actifs, mais disponibles
+	- permettre de créer un nouveau répertoire pour accueillir un nouveau site web (avec la création des virtualhost automatique)
 
-### Modalités de non correction
-- Des textes présentant trop de fautes rédactionnelles, qui n'ont pas été à minima corrigé via un correcteur en ligne, résultetont en un zéro.
-- Un repository GITHUB non accessible, résultera en un zéro. (Pensez à le mettre en "public" !)
-- L'utilisation d'images non libre de droits entrainera un zéro.
 
-## QCM
-Il sera fait le 15/12/2020 durant la séance. note : /20, coef : 1
+—————————————————————————————————————————————————————————————————————————————————————
+
+## 3 - Créer un script permettant de réaliser des sauvegardes automatique de votre serveur web Apache
+
+Le script devra permettre d'automatiser la sauvegarde de l'ensemble des sites internet, ainsi que des virtualhosts et de la configuration d'apache.
+Le script devra ensuite permettre 
