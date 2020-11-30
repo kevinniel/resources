@@ -9,7 +9,7 @@ Faire un script de gestion des utilisateurs, qui doit permettre :
 	- de voir tous les utilisateurs
 	- de faire une recherche sur l'existence d'un utilisateur en particulier
 
-—————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————————————————————————————————————
 
 ## 2 - Exercice d'installation automatique d'un serveur web Apache
 
@@ -21,8 +21,7 @@ Créer un script qui va automatiquement installer et paramétrer un serveur web 
 	- permettre de lister les modules apaches non actifs, mais disponibles
 	- permettre de créer un nouveau répertoire pour accueillir un nouveau site web (avec la création des virtualhost automatique)
 
-
-—————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————————————————————————————————————
 
 ## 3 - Créer un script permettant de réaliser des sauvegardes automatique de votre serveur web Apache
 
