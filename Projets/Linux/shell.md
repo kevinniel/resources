@@ -48,7 +48,7 @@ L'ensemble des informations devront être enregistrées dans un fichier texte
 
 ————————————————————————————————————————————————————————————————
 
-## 4 - Créer un agenda
+## 5 - Créer un agenda
 
 Le script devra permettre de gérer un agenda. Il devra inclure les fonctionnalités suivantes : 
 
