@@ -57,3 +57,4 @@ Par groupe :
 - un lien GIT (publique)
 - lien vers le site heroku en prod et fonctionnel
 - des accès par "type" d'utilisateur pour me permettre de tout tester sans m'inscrire
+Date de rendu du projet : le 19 à 18h
