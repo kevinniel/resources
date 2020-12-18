@@ -58,3 +58,9 @@ Le script devra permettre de gérer un agenda. Il devra inclure les fonctionnali
 - supprimer un évènement
 
 L'ensemble des informations devront être enregistrées dans un fichier texte
+
+————————————————————————————————————————————————————————————————
+
+## 5 - Créer 
+
+Créer un script
