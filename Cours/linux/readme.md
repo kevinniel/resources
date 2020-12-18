@@ -12,13 +12,6 @@
 5. [Processus](https://github.com/kevinniel/resources/blob/master/Cours/linux/processus.md)
 6. [Astuces](https://github.com/kevinniel/resources/blob/master/Cours/linux/astuces.md)
 
-### reste à voir : 
-- path
-- tar
-- service reload / restart /start / stop ...
-- cpio
-- dd
-
 # Evaluation
 
 ## Projet

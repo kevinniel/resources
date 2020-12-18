@@ -20,7 +20,7 @@ Pour réaliser le document, voici la trame suggérée :
   
 2.2. - Listing des fonctionnalités : Lister l'ensemble des fonctionnalités. Une fois fait, regrouper celles-ci en les mettant en couleur (l'idée est de regrouper celles qui semblent concerner les même sujets)
   
-2.3. - Diagramme de package : Chaque couleur utilisée plus haut représente un package. Donner un nom à votre groupement et votre package est prêt.
+2.3. - Diagramme de package : Chaque couleur utilisée plus haut représente un package. Donner un nom à votre groupement et votre package est prêt. (plus d'infos)[https://www.uml-diagrams.org/package-diagrams-overview.html]
   
 2.4. - Package 1
     
