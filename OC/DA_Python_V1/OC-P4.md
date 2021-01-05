@@ -45,4 +45,5 @@ Ne cherchez pas trop loin, les attentes sont :
 - Serveur web (OVH par exemple)
 - Python & Django
 - HTML / CSS / JS
+
 Pour chacune des informations ci-dessus, trouvez une source sur le net justifiant de la renommée et de la pertinence de ces choix, et intégrez les à votre document de présentation de cette partie.
