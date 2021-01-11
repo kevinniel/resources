@@ -14,7 +14,7 @@ En vous servant de la librairie Beautiful Soup 4 (BS4), vous devrez scrapper la 
 	- 1 fichier "markdown" sous forme de tableau. Chaque ligne devra contenir les informations suivantes (par colonne) : 
 		- citation
 		- nom de l'auteur
-		- liste des tags
+		- liste des tags (sans doublon)
 - 1 dossier "tags"
 	- 1 fichier "txt" contenant tous les tags. 1 tag par ligne.
 - 1 dossier "authors"
