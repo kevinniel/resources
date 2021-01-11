@@ -20,11 +20,6 @@ En vous servant de la librairie Beautiful Soup 4 (BS4), vous devrez scrapper la 
 - 1 dossier "authors"
 	- 1 fichier Excel par auteur, présentant le nom dans une colonne, puis la description dans une autre.
 
-Citation (texte + auteur + tag)
-Tags (texte)
-Auteurs (nom + date naissance + description)
-
-
 ## Contraintes
 
 - Respect de la PEP8 avec __Pylint__ ET __Flake8__
