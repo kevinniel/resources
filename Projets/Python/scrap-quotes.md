@@ -4,6 +4,7 @@
 
 - http://quotes.toscrape.com/
 - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- https://requests.readthedocs.io/en/master/
 
 ## Énoncé
 
