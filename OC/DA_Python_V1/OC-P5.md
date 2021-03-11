@@ -23,7 +23,7 @@ Ton menu doit contenir les choix suivants :
 - (etape 1) quitter le programme.
 
 ## Exemple code python pour requete API
-
+```
 URL ='https://fr.openfoodfacts.org/cgi/search.pl'
 payload = {
     'action': 'process',
@@ -37,3 +37,4 @@ payload = {
 }
 req = requests.get(URL, params=payload)
 return req.json().get('products')
+```
