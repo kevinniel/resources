@@ -21,3 +21,19 @@ Ton menu doit contenir les choix suivants :
   - re-créer ta BDD a partir de ton script SQL (qui va être exécuté par Python)
   - re-déclencher l'appel a l'API pour récupérer les informations
 - (etape 1) quitter le programme.
+
+## Exemple code python pour requete API
+
+URL ='https://fr.openfoodfacts.org/cgi/search.pl'
+payload = {
+    'action': 'process',
+    'tagtype_0': 'categories',
+    'tag_contains_0': 'contains',
+    'tag_0': category, # => catégorie de te boucle
+    'tagtype_1': 'nutrition_grade',
+    'tag_contains_1': 'contains',
+    'page_size': nb, # => 50
+    'json': 'true',
+}
+req = requests.get(URL, params=payload)
+return req.json().get('products')
