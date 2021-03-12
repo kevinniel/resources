@@ -1,5 +1,12 @@
 # Aide réalisation mémoire
 
+## 0 - Les plans
+
+- **plan de niveau 1** : titres principaux / grands titres
+- **plan de niveau 2** : sous-titres
+- **plan de niveau 3** : tous les niveaux de titre
+- **plan de niveau 4 (détaillé)** : les contenus de chacun des sousousousousousou-titres, sous forme de liste
+
 ## 1 - Méthodologie
 
 - lorsque vous des recherches, de la contextualisation etc... : ne rédigez pas ! faites des listes, des mots clés, etc..
