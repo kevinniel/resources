@@ -38,3 +38,7 @@ payload = {
 req = requests.get(URL, params=payload)
 return req.json().get('products')
 ```
+
+## Livrairies utilisées
+- **requests** : pour les requêtes à l'API
+- **mysql.connector** : pour les requêtes vers ta BDD
