@@ -42,3 +42,7 @@ return req.json().get('products')
 ## Livrairies utilisées
 - **requests** : pour les requêtes à l'API
 - **mysql.connector** : pour les requêtes vers ta BDD
+  - [installation](https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html)
+  - [connexion](https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html)
+  - [insertion de données](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-transaction.html)
+  - [récupération de données](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-select.html)
