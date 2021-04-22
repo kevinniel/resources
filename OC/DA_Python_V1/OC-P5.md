@@ -59,7 +59,7 @@ return req.json().get('products')
 [O] ---- Substitute.py
 [O] - Config/
 [O] ---- db_config.py (fichier de config des infos de la BDD)
-[O] ---- settings.py (ton fichier actuel de config)
+[O] ---- settings.py (config autre que BDD)
 [O] - Api/
 [O] ---- off.py (classe qui gère les requêtes d'OFF)
 [O] - App/
