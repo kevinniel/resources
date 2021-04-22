@@ -46,3 +46,31 @@ return req.json().get('products')
   - [connexion](https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html)
   - [insertion de données](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-transaction.html)
   - [récupération de données](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-select.html)
+
+## proposition d'architecture MVC
+
+```
+[O] - Database/
+[O] ---- script.sql (script de création de la DB)
+[O] ---- database.py (fichier qui gère la création des curseurs et envoie des requêtes)
+[O] - Models/ (fichiers qui vont être créés à partir des données de la BDD)
+[O] ---- Product.py
+[O] ---- Category.py
+[O] ---- Substitute.py
+[O] - Config/
+[O] ---- db_config.py (fichier de config des infos de la BDD)
+[O] ---- settings.py (ton fichier actuel de config)
+[O] - Api/
+[O] ---- off.py (classe qui gère les requêtes d'OFF)
+[O] - App/
+[O] ---- main.py (point d'entrée de ton programme)
+[O] - Controllers/
+[O] ---- ProductController.py (gère le code métier des produits = requete BDD + traitements)
+[O] ---- CategoryController.py (input)
+[O] ---- SubstituteController.py (input la recup se fait par le controller)
+[O] - Views/
+[O] ---- ProductView.py (gère l'affichage des informations des produits)
+[O] ---- CategoryView.py
+[O] ---- SubstituteView.py
+[O] ---- MenuView.py
+```
