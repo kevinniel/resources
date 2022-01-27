@@ -145,6 +145,14 @@ Une fois les mots clés dégagés, il faudra bien les expliquer pour ne laisser 
 
 4. Rédiger sous-titre / sous-partie / paragraphes, sans se soucier des autres. __Chaque paragraphe doit pouvoir être lu seul.__
 
+__=> Ici, la rédaction de votre mémoire doit être quasiment terminée__
+
+5. Vérifier / s'assurer que l'ensemble du rendu est cohérent. (raconte une histoire / suite logique)
+
+6. Prendre chaque sous partie et/ou paragraphe : reprendre votre problématique, et rédiger une phrase à la fin de votre paragraphe expliquant en quoi ce paragraphe apporte un élément de réponse à votre problématique.
+
+7. refaire le même travail en ajoutant des phrases de transitions entre vos paragraphes.
+
 
 # Reste à voir : 
 - hypothèses
