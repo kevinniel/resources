@@ -162,7 +162,7 @@ __=> Ici, la rédaction de votre mémoire doit être quasiment terminée__
 - formalisme
 - formulation
 - orthographe / grammaire / style d'écriture
-
+- lexique / glossaire...
 
 
 
