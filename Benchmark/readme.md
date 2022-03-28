@@ -45,16 +45,19 @@ comparaison / caractéristiques / étude / analyse
 - payant ou non ou opensource ?
 - compatibilité / adaptabilité
 - besoins (serveur ?)
-- Environnement de développement
+- Environnement de développement (IDE, etc...)
 
 ## Accessibilité
 - courbe d'apprentissage
 - documentation
 - configuration : difficulté
-- tuto ?
-- besoins ordinateurs
-- daltonisme / malvoyants / malentendants
-- lisibilité ?
+- nombre de formations disponibles (tutos ?)
+- besoins en matériel
+- verbosité du langage
+- médicale
+  - daltonisme
+  - malvoyants
+  - malentendants
 
 ## Sécurité
 
@@ -64,7 +67,9 @@ comparaison / caractéristiques / étude / analyse
 
 ## Écologie
 
-Maintenabilité
 
+# Résultante
+- Maintenabilité
+- taille des projets (petit / gros)
 
 
