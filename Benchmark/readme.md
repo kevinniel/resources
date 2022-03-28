@@ -7,6 +7,7 @@ comparaison / caractéristiques / étude / analyse
 2 technos informatiques
 
 # axes de recherche
+Les points suivants doivent être traités pour les 2 technologies comparées.
 
 ## Présentation
 - Historique
@@ -46,6 +47,7 @@ comparaison / caractéristiques / étude / analyse
 - compatibilité / adaptabilité
 - besoins (serveur ?)
 - Environnement de développement (IDE, etc...)
+- compatibilité supports
 
 ## Accessibilité
 - courbe d'apprentissage
@@ -60,16 +62,31 @@ comparaison / caractéristiques / étude / analyse
   - malentendants
 
 ## Sécurité
+- gestion des principales failles de sécurité (top 10 OWASP)
+- réactivité pour les corrections
+- nombre d'incidents passés
+- durée depuis la dernière date de faille majeure connue
+- bug bounties ?
 
 ## performance
 - vitesse d'exécution
 - mono/multithreading
+- temps de build
+- hot reload ?
+- différence en fonction des supports ?
+- gestion cache ?
+- fiabilité
+- vitesse de distribution
+- vitesse de requêtage ?
 
-## Écologie
+
 
 
 # Résultante
+Résultats de l'analyse comparative.
+
+(
 - Maintenabilité
 - taille des projets (petit / gros)
-
+)
 
