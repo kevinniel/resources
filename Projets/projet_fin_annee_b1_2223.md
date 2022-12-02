@@ -49,3 +49,8 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
     - Type du champs
     - Spécification (AutoIncrement, NotNull)
     - Commentaires
+3. Laravel
+   - initialiser le projet
+   - mettre en place les migrations
+   - mettre en place les seeders
+   - mettre en place les factories
