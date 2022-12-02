@@ -25,13 +25,17 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
 
 ```
 |--D Cahier des charges
+|--|----F Cahier des charges
 |--|----D Brainstorming
 |--D Documentation
 |--|----D Technique
+|--|----|----F Documentation technique
 |--|----|----D Brainstorming
 |--|----D Fonctionnelle
+|--|----|----F Documentation fonctionnelle
 |--|----|----D Brainstorming
 |--D Graphisme
+|--|----F Charte graphique
 |--|----D Brainstorming
 ```
 
