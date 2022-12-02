@@ -34,3 +34,8 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
 |--D Graphisme
 |--|----D Brainstorming
 ```
+
+## Etapes
+
+1. Listing de fonctionnalités (cahier des charges)
+2. Dictionnaire des données (documentation fonctionnelle & technique)
