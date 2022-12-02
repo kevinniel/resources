@@ -40,7 +40,7 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
 1. Listing de fonctionnalités (cahier des charges)
 2. Dictionnaire des données (documentation fonctionnelle & technique)
   ==> Tableau Excel. L'idée est de décrire les tables de vos bases de données. Pour ça, 4 colonnes : 
-  - nom de la table
-  - Nom du champs
-  - Type du champs
-  - Spécification (AutoIncrement, NotNull)
+    - nom de la table
+    - Nom du champs
+    - Type du champs
+    - Spécification (AutoIncrement, NotNull)
