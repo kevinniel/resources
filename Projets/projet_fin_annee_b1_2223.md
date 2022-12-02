@@ -48,3 +48,4 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
     - Nom du champs
     - Type du champs
     - Spécification (AutoIncrement, NotNull)
+    - Commentaires
