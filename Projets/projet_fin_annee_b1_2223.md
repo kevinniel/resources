@@ -23,6 +23,7 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
 
 ### Architecture du drive
 
+```
 |--x Cahier des charges
 |--|----x Brainstorming
 |--x Documentation
@@ -32,3 +33,4 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
 |--|----|----x Brainstorming
 |--x Graphisme
 |--|----x Brainstorming
+```
