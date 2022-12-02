@@ -1,6 +1,6 @@
 ## Contexte
 
-Réalisatio d'un projet regroupant l'ensemble des notions abordées dans l'année
+Réalisation d'un projet regroupant l'ensemble des notions abordées dans l'année
 
 ## Objectifs
 
@@ -24,13 +24,13 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
 ### Architecture du drive
 
 ```
-|--x Cahier des charges
-|--|----x Brainstorming
-|--x Documentation
-|--|----x Technique
-|--|----|----x Brainstorming
-|--|----x Fonctionnelle
-|--|----|----x Brainstorming
-|--x Graphisme
-|--|----x Brainstorming
+|--D Cahier des charges
+|--|----D Brainstorming
+|--D Documentation
+|--|----D Technique
+|--|----|----D Brainstorming
+|--|----D Fonctionnelle
+|--|----|----D Brainstorming
+|--D Graphisme
+|--|----D Brainstorming
 ```
