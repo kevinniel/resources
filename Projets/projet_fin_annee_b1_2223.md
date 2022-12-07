@@ -57,7 +57,7 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
 4. Graphisme
   - trouver un template qui corresponde à vos besoins (adminLTE répond à beaucoup de besoins) OU trouver une maquette figma, et l'intégrer en HTML/CSS
 5. Intégration static
-  - Refaire toutes les pages du site web, en static (HTML + CSS uniquement)
+  - Refaire toutes les pages du site web, en static (HTML + CSS + JS uniquement)
   __Remarque__ : Vous pouvez mettre les fichiers en ```.php``` pour gérer des include (menus, etc...)
 6. Vérification des données
   - Vérifier que vos données en base de données soient suffisantes (qu'il ne vous en manque pas)
