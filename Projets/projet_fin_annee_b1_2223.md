@@ -61,3 +61,10 @@ Réalisation d'une application web sur le sujet de votre choix. Les différents 
   __Remarque__ : Vous pouvez mettre les fichiers en ```.php``` pour gérer des include (menus, etc...)
 6. Vérification des données
   - Vérifier que vos données en base de données soient suffisantes (qu'il ne vous en manque pas)
+7. Mettre en place le templating avec Blade, définir le layout de base
+8. pour chaque fonctionnalité, réaliser dans l'ordre : 
+  - La création de la route, en lui donnant un nom
+  - La mise en place du contrôleur et de sa méthode comme définie dans la route
+  - La mise en place des modèles - dans un premier temps sans les relations
+  - La mise en place de la vue associée
+
